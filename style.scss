@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.headerContent1 {
+  background: #202020;
+  color: #7b7b7b;
+}
+
+.container.headerContent1--container {
+  display: flex;
+  position: relative;
+  font-weight: 600;
+}
+
+.row.headerContent1--container-rowTwo {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+i.fa.fa-clock-o {
+  padding: 12px;
+}
+
+.rowOne__p1 {
+  margin-top: 7px;
+}
+
+// i.fa.fa-facebook {
+//   margin-left: 45px;
+//   padding: 13px;
+//   border: 1px solid #2b2b2b;
+// }
+
+// i.fa.fa-twitter {
+//   padding: 13px;
+//   border: 1px solid #2b2b2b;
+// }
+
+// i.fa.fa-tumblr {
+//   padding: 13px;
+//   border: 1px solid #2b2b2b;
+// }
+
+// i.fa.fa-vimeo {
+//   padding: 13px;
+//   border: 1px solid #2b2b2b;
+// }
+
+
+.row.headerContent1--container--rowOne i.fa.fa-facebook {
+    margin-left: 45px;
+}
+//test FOR to content1 header
+@for $i from 1 through 4 {
+  .item-#{$i}{
+      padding: 13px;
+      border: 1px solid #2b2b2b;
+    }
+}
+i.fa.fa-user {
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+i.fa.fa-user-plus {
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+p.rowTwo__p1 {
+  margin-top: 5px;
+  float: right;
+}
+
+p.rowTwo__p2 {
+  margin-top: 5px;
+  float: right;
+}
+
+//test FOR to content1 header
+@for $i from 5 through 6 {
+  .item-#{$i}{
+      border: 1px solid #2b2b2b;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+}
+
+// .headerContent1--container--rowTwoOne {
+//   border: 1px solid #2b2b2b;
+//   padding-left: 15px;
+//   padding-right: 15px;
+// }
+
+// .headerContent1--container--rowTwoTwo {
+//   border: 1px solid #2b2b2b;
+//   padding-left: 15px;
+//   padding-right: 15px;
+// }
+
