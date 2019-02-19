@@ -6,12 +6,14 @@
 .headerContent1 {
   background: #202020;
   color: #7b7b7b;
+  height: 33px;
 }
 
 .container.headerContent1--container {
   display: flex;
   position: relative;
   font-weight: 600;
+  font-size: 13px;
 }
 
 .row.headerContent1--container-rowTwo {
@@ -21,83 +23,136 @@
 }
 
 i.fa.fa-clock-o {
-  padding: 12px;
+  padding: 8px;
+  margin-left: 12px;
 }
 
 .rowOne__p1 {
-  margin-top: 7px;
+  margin-top: 3px;
 }
 
-// i.fa.fa-facebook {
-//   margin-left: 45px;
-//   padding: 13px;
-//   border: 1px solid #2b2b2b;
-// }
-
-// i.fa.fa-twitter {
-//   padding: 13px;
-//   border: 1px solid #2b2b2b;
-// }
-
-// i.fa.fa-tumblr {
-//   padding: 13px;
-//   border: 1px solid #2b2b2b;
-// }
-
-// i.fa.fa-vimeo {
-//   padding: 13px;
-//   border: 1px solid #2b2b2b;
-// }
-
-
-.row.headerContent1--container--rowOne i.fa.fa-facebook {
+i.fa {
+  &.fa-facebook {
     margin-left: 45px;
+    padding: 8px;
+    border: 1px solid #2b2b2b;
+  }
+  &.fa-twitter, &.fa-tumblr, &.fa-vimeo {
+    padding: 8px;
+    border: 1px solid #2b2b2b;
+  }
+  &.fa-user, &.fa-user-plus {
+    margin-top: 10px;
+    margin-right: 5px;
+  }
 }
-//test FOR to content1 header
-@for $i from 1 through 4 {
-  .item-#{$i}{
-      padding: 13px;
-      border: 1px solid #2b2b2b;
+
+p {
+  &.rowTwo__p1, &.rowTwo__p2 {
+    margin-top: 5px;
+    float: right;
+  }
+}
+
+.headerContent1--container--rowTwoOne, .headerContent1--container--rowTwoTwo {
+  border: 1px solid #2b2b2b;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.headerContent2 {
+  background: url("img/Green Shop/PSD/backgroundlogo.png");
+  position: relative;
+}
+
+.headerContent2--rowOne {
+  position: absolute;
+  right: 445px;
+  top: 0;
+  display: flex;
+  margin-top: 25px;
+}
+
+.headerContent2--rowTwo {
+  position: absolute;
+  top: 65px;
+  right: 350px;
+  display: flex;
+  background: #ffffff;
+  height: 40px;
+  width: 430px;
+  padding-top: 6px;
+  padding-left: 25px;
+  border-radius: 20px;
+  i.fa.fa-search-minus {
+    position: absolute;
+    right: 20px;
+    top: 2px;
+    border-left: 1px solid #ebebeb;
+    padding: 10px;
+  }
+}
+
+.headerContent2--rowOne i.fa.fa-phone {
+  margin: 5px;
+}
+
+.headerContent2--rowThree {
+  position: absolute;
+  display: flex;
+  top: 70px;
+  right: 190px;
+}
+
+p.headerContent2--rowThree__p {
+  margin-left: 15px;
+  margin-top: 3px;
+}
+
+.headerContent2--rowThree i.fa.fa-shopping-bag {
+  font-size: 25px;
+}
+
+.headerContent3 {
+  height: 50px;
+  background: #3fb871;
+  position: relative;
+}
+
+ul.headerContent3__ul {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 303px;
+}
+
+.headerContent3--container {
+  i.fa.fa-bars {
+    position: absolute;
+    top: 12px;
+    left: 218px;
+    font-size: 22px;
+    color: white;
+  }
+  ul.headerContent3__ul {
+    list-style: none;
+    text-transform: uppercase;
+    margin-top: 4px;
+    margin-left: -50px;
+  }
+  li {
+    padding: 10px 20px;
+  }
+  a {
+    &.home {
+      color: white;
+      text-decoration: none;
+      background: #36a66d;
+      padding: 13.5px;
     }
-}
-i.fa.fa-user {
-  margin-top: 10px;
-  margin-right: 5px;
-}
-
-i.fa.fa-user-plus {
-  margin-top: 10px;
-  margin-right: 5px;
-}
-
-p.rowTwo__p1 {
-  margin-top: 5px;
-  float: right;
-}
-
-p.rowTwo__p2 {
-  margin-top: 5px;
-  float: right;
-}
-
-//test FOR to content1 header
-@for $i from 5 through 6 {
-  .item-#{$i}{
-      border: 1px solid #2b2b2b;
-      padding-left: 15px;
-      padding-right: 15px;
+    &.introduce, &.product, &.newproduct, &.news, &.contact {
+      color: white;
+      text-decoration: none;
     }
+  }
 }
-
-// .headerContent1--container--rowTwoOne {
-//   border: 1px solid #2b2b2b;
-//   padding-left: 15px;
-//   padding-right: 15px;
-// }
-
-// .headerContent1--container--rowTwoTwo {
-//   border: 1px solid #2b2b2b;
-//   padding-left: 15px;
-//   padding-right: 15px;
-// }
-
