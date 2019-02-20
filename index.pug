@@ -1,0 +1,59 @@
+doctype html
+html(lang='en')
+  head
+    title  MY PROJECT
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    script(type='text/javascript', src='vendor/bootstrap.js')
+    script(type='text/javascript', src='1.js')
+    link(rel='stylesheet', href='vendor/bootstrap.css')
+    link(rel='stylesheet', href='vendor/font-awesome.css')
+    link(rel='stylesheet', href='style.css')
+  body
+    // Start : Header
+    header.header
+      .headerContent1
+        .container.headerContent1--container
+          .row.headerContent1--container--rowOne
+            i.fa.fa-clock-o(aria-hidden='true')
+            p.rowOne__p1 Open time: 8:00 -18:00 Monday - Sunday 
+            i.fa.fa-facebook(aria-hidden='true')
+            i.fa.fa-twitter(aria-hidden='true')
+            i.fa.fa-tumblr(aria-hidden='true')
+            i.fa.fa-vimeo(aria-hidden='true')
+          .row.headerContent1--container-rowTwo
+            .headerContent1--container--rowTwoOne
+              i.fa.fa-user(aria-hidden='true')
+              p.rowTwo__p1 Đăng nhập
+            .headerContent1--container--rowTwoTwo
+              i.fa.fa-user-plus(aria-hidden='true')
+              p.rowTwo__p2 Đăng ký
+      .headerContent2
+        .container.headerContent2--container
+          img(src='img/Green Shop/PSD/finallogo.png', alt='lol')
+        .headerContent2--rowOne
+          i.fa.fa-phone(aria-hidden='true')
+          p HỖ TRỢ : (04)6674 2332 - (04)3786 8904
+        .headerContent2--rowTwo
+          p.headerContent2--rowTwo__p Tìm kiếm
+          i.fa.fa-search-minus(aria-hidden='true')
+        .headerContent2--rowThree
+          i.fa.fa-shopping-bag(aria-hidden='true')
+          p.headerContent2--rowThree__p 0 Sản phẩm
+      .headerContent3
+        .container.headerContent3--container
+          i.fa.fa-bars(aria-hidden='true')
+          ul.headerContent3__ul
+            li
+              a.home(href='') trang chủ
+            li
+              a.introduce(href='') giới thiệu
+            li
+              a.product(href='') sản phẩm
+            li
+              a.newproduct(href='') sản phẩm mới
+            li
+              a.news(href='') tin tức
+            li
+              a.contact(href='') liên hệ
+    // End : Header
