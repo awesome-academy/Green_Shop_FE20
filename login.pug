@@ -1,0 +1,62 @@
+//- HTML Variables 
+-var pageTitle = 'Green Shop'
+-var content_rowOne__p1 = 'Open time: 8:00 -18:00 Monday - Sunday'
+-var content_rowTwo__p1 = 'Đăng nhập'
+-var content_rowTwo__p2 = 'Đăng ký'
+-var content_p ='HỖ TRỢ : (04)6674 2332 - (04)3786 8904'
+-var content_250k = '250.000 đ'
+-var content6__p1 = 'thứ 7 ,ngày 31, tháng 12, năm 2015'
+-var caydanhdu ='Cây Danh Dự'
+-var caydalam ='Cây Dạ Lam'
+doctype html
+html(lang='en')
+  head
+    title #{pageTitle}
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    script(type='text/javascript', src='vendor/bootstrap.js')
+    script(type='text/javascript', src='1.js')
+    link(rel='stylesheet', href='vendor/bootstrap.css')
+    link(rel='stylesheet', href='vendor/font-awesome.css')
+    link(rel='stylesheet', href='style.css')
+    link(rel="stylesheet", href="login.css")
+  body
+    // Start : Header
+    include header.pug
+    // End : Header
+
+    // Start : Content1
+    .Login_Content1
+      .container
+        .Login_content1--One
+          p.Login_content--One__p1 Home /
+          p.Login_content--One__p2 Đăng nhập
+        .Login_content1--Two
+          .row
+            .col-xs-5.col-sm-5.col-md-5.col-lg-5.Login_content1--Two--displaycol1
+              h2.Login_content1--Two--displaycol1__h2 thông tin cá nhân
+              .Login_content1--Two--displaycol1--One
+                p.Login_content1--Two--displaycol1--One__p Email của bạn
+                .Login_content1--Two--displaycol1--OneOne
+              .Login_content1--Two--displaycol1--One
+                p.Login_content1--Two--displaycol1--One__p Email của bạn
+                .Login_content1--Two--displaycol1--OneOne
+              .Login_content1--Two--displaycol1--Two
+                .Login_content1--Two--displaycol1--TwoOne
+                  .Login_content1--Two--displaycol1--TwoOneOne
+                  p.Login_content1--Two--displaycol1--TwoOneOne__p Ghi nhớ tài khoản
+                p.Login_content1--Two--displaycol1--TwoOne__p Bạn quên mật khẩu ?
+              .Login_content1--Two--displaycol1--Three
+                p.Login_content1--Two--displaycol1--Three__p đăng nhập
+            .col-xs-5.col-sm-5.col-md-5.col-lg-5.Login_content1--Two--displaycol2
+              h2.Login_content1--Two--displaycol2__h2 bạn chưa có tài khoản
+              p.Login_content1--Two--displaycol2__p
+                | Đăng ký tài khoản để có thể mua hàng nhanh chóng
+                | và dễ dàng hơn ! Ngoài ra còn có rất nhiều chính sách và ưu đãi cho các thành viên citybike
+              .Login_content1--Two--displaycol2--One đăng ký
+    // End : Content1
+
+
+    // Start : Footer
+    include footer.pug
+    // End : Footer
