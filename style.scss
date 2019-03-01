@@ -14,7 +14,7 @@ $ta : center;
 }
 
 /* HEADER */
-@import "../header.pug";
+@import "header.scss";
 
 // Mixin_header
 @mixin header1 {
