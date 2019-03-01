@@ -1,0 +1,460 @@
+//- HTML Variables 
+-var pageTitle = 'Green Shop'
+-var content_rowOne__p1 = 'Open time: 8:00 -18:00 Monday - Sunday'
+-var content_rowTwo__p1 = 'Đăng nhập'
+-var content_rowTwo__p2 = 'Đăng ký'
+-var content_p ='HỖ TRỢ : (04)6674 2332 - (04)3786 8904'
+-var content_250k = '250.000 đ'
+-var content6__p1 = 'thứ 7 ,ngày 31, tháng 12, năm 2015'
+-var caydanhdu ='Cây Danh Dự'
+-var caydalam ='Cây Dạ Lam'
+doctype html
+html(lang='en')
+  head
+    title #{pageTitle}
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    script(type='text/javascript', src='vendor/bootstrap.js')
+    //- script(type='text/javascript', src='1.js')
+    link(rel='stylesheet', href='vendor/bootstrap.css')
+    link(rel='stylesheet', href='vendor/font-awesome.css')
+    link(rel='stylesheet', href='style.css')
+  body
+    // Start : Header
+    include header.pug
+    // End : Header
+    // Start : Content1
+    section.Content1
+      img(src='img/Green Shop/PSD/slide-1920x590.png', alt='', height='393px', width='100%')
+    // End : Content1
+    // Start : Content2
+    section.Content2
+      .container.Content2--container
+        .Content2--rowOne
+          p.Content2--rowOne__p Sản phẩm nổi bật
+          hr.Content2--rowOne__hr
+        .Content2--rowTwo
+          // Start : Content Column The Left
+          .col-xs-6.col-sm-6.col-md-6.col-lg-6.Content2--rowTwoLeft
+            .Content2--rowTwoOne
+              .thumbnail.Content2--rowTwoOne--thumbnail
+                img.Content2--rowTwoOne--thumbnail__img(src='img/Green Shop/PSD/spx2/spx2-4.png', alt='', height='480px', width='539px')
+                p.Content2--rowTwoOne--thumbnail__p Cây chân chim
+                .Content2--rowTwoOne--thumbnail--star
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star-half-o(aria-hidden='true')
+                .Content2--rowTwoOne--thumbnail--rate
+                  p.Content2--rowTwoOne--thumbnail--rate__p1 #{content_250k}
+                  p.Content2--rowTwoOne--thumbnail--rate__p2 #{content_250k}
+                .Content2--rowTwoOne--thumbnail--Circle
+                  p.Content2--rowTwoOne--thumbnail--Circle__p new
+            .Content2--rowTwoTwo
+              span.Content2--rowTwoTwo__span1
+              p.Content2--rowTwoTwo__p mua ngay
+              span.Content2--rowTwoTwo_span2
+                i.fa.fa-search(aria-hidden='true')
+            .Content2--rowTwoThree
+              .Content2--rowTwoThreeLeft
+                .col-xs-3.col-sm-3.col-md-3.col-lg-3
+                  img.Content2--rowTwoThreeLeft__img(src='img/Green Shop/PSD/spx2/spx2-11.png', alt='', width='255px', height='219px')
+                  p.Content2--rowTwoThreeLeft__p Cây cọ ta
+                  .Content2--rowTwoThreeLeft--thumbnail--star
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star-half-o(aria-hidden='true')
+                  .Content2--rowTwoThreeLeft--thumbnail--rate
+                    p.Content2--rowTwoThreeLeft--thumbnail--rate__p1 150.000 đ
+                    p.Content2--rowTwoThreeLeft--thumbnail--rate__p2 #{content_250k}
+              .Content2--rowTwoThreeRight
+                .col-xs-3.col-sm-3.col-md-3.col-lg-3
+                  img.Content2--rowTwoThreeRight__img(src='img/Green Shop/PSD/spx2/spx2-6.png', alt='', width='255px', height='219px')
+                  p.Content2--rowTwoThreeRight__p Cây dứa nhỏ
+                  .Content2--rowTwoThreeRight--thumbnail--star
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star-half-o(aria-hidden='true')
+                  .Content2--rowTwoThreeRight--thumbnail--rate
+                    p.Content2--rowTwoThreeRight--thumbnail--rate__p1 375.000 đ
+                    p.Content2--rowTwoThreeRight--thumbnail--rate__p2 #{content_250k}
+          // End : Content Column The Left
+          // Start : Content Column The Right
+          .col-xs-6.col-sm-6.col-md-6.col-lg-6.Content2--rowTwoRight
+            .Content2--rowTwoFour
+              .thumbnail.Content2--rowTwoFour--thumbnail
+                img.Content2--rowTwoFour--thumbnail__img(src='img/Green Shop/PSD/spx2/spx2-3.png', alt='', height='480px', width='539px')
+                p.Content2--rowTwoFour--thumbnail__p Cây đa búp đỏ
+                .Content2--rowTwoFour--thumbnail--star
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star-half-o(aria-hidden='true')
+                .Content2--rowTwoFour--thumbnail--rate
+                  p.Content2--rowTwoFour--thumbnail--rate__p1 1.000.000 đ
+                  p.Content2--rowTwoFour--thumbnail--rate__p2 #{content_250k}
+                .Content2--rowTwoFour--thumbnail--Circle
+                  p.Content2--rowTwoFour--thumbnail--Circle__p new
+            .Content2--rowTwoFive
+              span.Content2--rowTwoFive__span1
+              p.Content2--rowTwoFive__p mua ngay
+              span.Content2--rowTwoFive_span2
+                i.fa.fa-search(aria-hidden='true')
+            .Content2--rowTwoSix
+              .Content2--rowTwoSixLeft
+                .col-xs-3.col-sm-3.col-md-3.col-lg-3
+                  img.Content2--rowTwoSixLeft__img(src='img/Green Shop/PSD/spx2/spx2-5.png', alt='', width='255px', height='219px')
+                  p.Content2--rowTwoSixLeft__p #{caydalam}
+                  .Content2--rowTwoSixLeft--thumbnail--star
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star-half-o(aria-hidden='true')
+                  .Content2--rowTwoSixLeft--thumbnail--rate
+                    p.Content2--rowTwoSixLeft--thumbnail--rate__p1 500.000 đ
+                    p.Content2--rowTwoSixLeft--thumbnail--rate__p2 #{content_250k}
+                  .Content2--rowTwoSixLeft--PercentageReduction
+                    p.Content2--rowTwoSixLeft--PercentageReduction__p -50%
+              .Content2--rowTwoSixRight
+                .col-xs-3.col-sm-3.col-md-3.col-lg-3
+                  img.Content2--rowTwoSixRight__img(src='img/Green Shop/PSD/spx2/spx2-15.png', alt='', width='255px', height='219px')
+                  p.Content2--rowTwoSixRight__p Cây Danh Dự
+                  .Content2--rowTwoSixRight--thumbnail--star
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star-half-o(aria-hidden='true')
+                  .Content2--rowTwoSixRight--thumbnail--rate
+                    p.Content2--rowTwoSixRight--thumbnail--rate__p1 850.000 đ
+                    p.Content2--rowTwoSixRight--thumbnail--rate__p2 #{content_250k}
+                  .Content2--rowTwoSixRight--New
+                    p.Content2--rowTwoSixRight--New__p new
+          // End : Content Column The Right
+      div
+    // End : Content2
+    // Start : Content3
+    section.Content3
+      .container.Content3--container
+        .row.Content3--container--row
+          .col-xs-3.col-sm-3.col-md-3.col-lg-3.Content3--container--row--displayleft
+            p.Content3--container--row--displayleft__p Sản phẩm mua nhiều
+            hr.Content3--container--row--displayleft__hr
+            ul.list-group.Content3--container--row--displayleft__ul
+              li.list-group-item.Content3--container--row--displayleft__li
+                img.Content3--Left--container--row--displayleft__li__img(src='img/Green Shop/PSD/spx2/spx2-2.png', height='77px', width='77px')
+                p.Content3--container--row--displayleft__li__p1 Cây chân chim
+                .Content3--container--row--displayleft__li--star
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star-half-o(aria-hidden='true')
+                p.Content3--container--row--displayleft__li__p2 #{content_250k}
+              li.list-group-item.Content3--container--row--displayleft__li
+                img.Content3--Left--container--row--displayleft__li__img(src='img/Green Shop/PSD/spx2/spx2-9.png', height='77px', width='77px')
+                p.Content3--container--row--displayleft__li__p3 #{caydalam}
+                .Content3--container--row--displayleft__li--star
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star-half-o(aria-hidden='true')
+                p.Content3--container--row--displayleft__li__p 150.000đ
+              li.list-group-item.Content3--container--row--displayleft__li
+                img.Content3--Left--container--row--displayleft__li__img(src='img/Green Shop/PSD/spx2/spx2-15.png', height='77px', width='77px')
+                p.Content3--container--row--displayleft__li__p4 #{caydanhdu}
+                .Content3--container--row--displayleft__li--star
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star-half-o(aria-hidden='true')
+                p.Content3--container--row--displayleft__li__p2 450.000đ
+              li.list-group-item.Content3--container--row--displayleft__li
+                img.Content3--Left--container--row--displayleft__li__img(src='img/Green Shop/PSD/spx2/spx2-12.png', height='77px', width='77px')
+                p.Content3--container--row--displayleft__li__p5 Cây đa búp đỏ
+                .Content3--container--row--displayleft__li--star
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star-half-o(aria-hidden='true')
+                p.Content3--container--row--displayleft__li__p2 200.000đ
+              li.list-group-item.Content3--container--row--displayleft__li
+                img.Content3--Left--container--row--displayleft__li__img(src='img/Green Shop/PSD/spx2/spx2-5.png', height='77px', width='77px')
+                p.Content3--container--row--displayleft__li__p6 Cây cọ ta
+                .Content3--container--row--displayleft__li--star
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star-half-o(aria-hidden='true')
+                p.Content3--container--row--displayleft__li__p2 300.000đ
+              li.list-group-item.Content3--container--row--displayleft__li
+                img.Content3--Left--container--row--displayleft__li__img(src='img/Green Shop/PSD/spx2/spx2-6.png', height='77px', width='77px')
+                p.Content3--container--row--displayleft__li__p1 Cây dứa nhỏ
+                .Content3--container--row--displayleft__li--star
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star-half-o(aria-hidden='true')
+                p.Content3--container--row--displayleft__li__p2 275.000đ
+          .col-xs-9.col-sm-9.col-md-9.col-lg-9.Content3--container--row--displayright
+            p.Content3--container--row--displayright__p Sản phẩm khuyến mãi
+            hr.Content3--container--row--displayright__hr
+            .Content3--container--row--displayright--arrow
+              i.fa.fa-chevron-circle-left(aria-hidden='true')
+              i.fa.fa-chevron-circle-right(aria-hidden='true')
+            .row.Content3--container--row--displayright--rowOne
+              .col-xs-4.col-sm-4.col-md-4.col-lg-4.Content3--container--row--displayright--rowOneOne
+                .thumbnail.Content3--container--row--displayright--rowOneOne--thumbnail
+                  img.Content3--container--row--displayright--rowOneOne--thumbnail__img(src='img/Green Shop/PSD/spx2/spx2-15.png', height='180px', width='261px')
+                  p.Content3--container--row--displayright--rowOneOne--thumbnail__p #{caydanhdu}
+                  .Content3--container--row--displayright--rowOneOne--thumbnail--star
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star-half-o(aria-hidden='true')
+                  .Content3--container--row--displayright--rowOneOne--thumbnail--rate
+                    p.Content3--container--row--displayright--rowOneOne--thumbnail--rate__p1 475.000 đ
+                    p.Content3--container--row--displayright--rowOneOne--thumbnail--rate__p2 #{content_250k}
+                  .Content3--container--row--displayright--rowOneOne--thumbnail--PercentageReduction
+                    p.Content3--container--row--displayright--rowOneOne--thumbnail--PercentageReduction__p 25%
+              .col-xs-4.col-sm-4.col-md-4.col-lg-4.Content3--container--row--displayright--rowOneOne
+                .thumbnail.Content3--container--row--displayright--rowOneOne--thumbnail
+                  img.Content3--container--row--displayright--rowOneOne--thumbnail__img(src='img/Green Shop/PSD/spx2/spx2-12.png', height='180px', width='256px')
+                  p.Content3--container--row--displayright--rowOneOne--thumbnail__p #{caydanhdu}
+                  .Content3--container--row--displayright--rowOneOne--thumbnail--star
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star-half-o(aria-hidden='true')
+                  .Content3--container--row--displayright--rowOneOne--thumbnail--rate
+                    p.Content3--container--row--displayright--rowOneOne--thumbnail--rate__p1 668.000 đ
+                    p.Content3--container--row--displayright--rowOneOne--thumbnail--rate__p2 #{content_250k}
+                  .Content3--container--row--displayright--rowOneOne--thumbnail--PercentageReduction
+                    p.Content3--container--row--displayright--rowOneOne--thumbnail--PercentageReduction__p 10%
+              .col-xs-4.col-sm-4.col-md-4.col-lg-4.Content3--container--row--displayright--rowOneOne
+                .thumbnail.Content3--container--row--displayright--rowOneOne--thumbnail
+                  img.Content3--container--row--displayright--rowOneOne--thumbnail__img(src='img/Green Shop/PSD/spx2/spx2-11.png', height='180px', width='255px')
+                  p.Content3--container--row--displayright--rowOneOne--thumbnail__p Cây cọ ta
+                  .Content3--container--row--displayright--rowOneOne--thumbnail--star
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star-half-o(aria-hidden='true')
+                  .Content3--container--row--displayright--rowOneOne--thumbnail--rate
+                    p.Content3--container--row--displayright--rowOneOne--thumbnail--rate__p1 770.000 đ
+                    p.Content3--container--row--displayright--rowOneOne--thumbnail--rate__p2 #{content_250k}
+            .row.Content3--container--row--displayright--rowTwo
+              .col-xs-4.col-sm-4.col-md-4.col-lg-4.Content3--container--row--displayright--rowTwoOneOne
+                .thumbnail.Content3--container--row--displayright--rowTwoOneOne--thumbnail
+                  img.Content3--container--row--displayright--rowTwoOneOne--thumbnail__img(src='img/Green Shop/PSD/spx2/spx2-11.png', height='180px', width='258px')
+                  p.Content3--container--row--displayright--rowTwoOneOne--thumbnail__p Cây cọ ta
+                  .Content3--container--row--displayright--rowTwoOneOne--thumbnail--star
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star-half-o(aria-hidden='true')
+                  .Content3--container--row--displayright--rowTwoOneOne--thumbnail--rate
+                    p.Content3--container--row--displayright--rowTwoOneOne--thumbnail--rate__p1 550.000 đ
+                    p.Content3--container--row--displayright--rowTwwOneOne--thumbnail--rate__p2 #{content_250k}
+              .helpme
+                .col-xs-4.col-sm-4.col-md-4.col-lg-4.Content3--container--row--displayright--rowTwoOneTwo
+                  .thumbnail.Content3--container--row--displayright--rowTwoOneTwo--thumbnail
+                    img.Content3--container--row--displayright--rowTwoOneTwo--thumbnail__img(src='img/Green Shop/PSD/spx2/spx2-11.png', height='180px', width='258px')
+                    p.Content3--container--row--displayright--rowTwoOneTwo--thumbnail__p Cây cọ ta
+                    .Content3--container--row--displayright--rowTwoOneTwo--thumbnail--star
+                      i.fa.fa-star(aria-hidden='true')
+                      i.fa.fa-star(aria-hidden='true')
+                      i.fa.fa-star(aria-hidden='true')
+                      i.fa.fa-star(aria-hidden='true')
+                      i.fa.fa-star-half-o(aria-hidden='true')
+                    .Content3--container--row--displayright--rowTwoOneTwo--thumbnail--rate
+                      p.Content3--container--row--displayright--rowTwoOneTwo--thumbnail--rate__p1 780.000 đ
+                      p.Content3--container--row--displayright--rowTwwOneTwo--thumbnail--rate__p2 #{content_250k}
+              .helpyou
+                .col-xs-4.col-sm-4.col-md-4.col-lg-4.Content3--container--row--displayright--rowTwoOneThree
+                  .thumbnail.Content3--container--row--displayright--rowTwoOneThree--thumbnail
+                    img.Content3--container--row--displayright--rowTwoOneThree--thumbnail__img(src='img/Green Shop/PSD/spx2/spx2-11.png', height='180px', width='255px')
+                    p.Content3--container--row--displayright--rowTwoOneThree--thumbnail__p Cây cọ ta
+                    .Content3--container--row--displayright--rowTwoOneThree--thumbnail--star
+                      i.fa.fa-star(aria-hidden='true')
+                      i.fa.fa-star(aria-hidden='true')
+                      i.fa.fa-star(aria-hidden='true')
+                      i.fa.fa-star(aria-hidden='true')
+                      i.fa.fa-star-half-o(aria-hidden='true')
+                    .Content3--container--row--displayright--rowTwoOneThree--thumbnail--rate
+                      p.Content3--container--row--displayright--rowTwoOneThree--thumbnail--rate__p1 680.000 đ
+                      p.Content3--container--row--displayright--rowTwwOneThree--thumbnail--rate__p2 #{content_250k}
+    // End : Content3
+    // Start : Content4
+    .Content4
+      .container.Content4--container
+        img.Content4--container__img(src='img/Green Shop/PSD/banner-11140x217.png', alt='', width='1113px')
+    // End : Content4
+    // Start : Content5
+    section.Content5
+      .container.Content5--container
+        .Content5--container--one
+          p.Content5--container--one__p Sản phẩm mới
+          hr.Content5--container--one__hr
+          .Content5--container--one--arrow
+            i.fa.fa-arrow-circle-left(aria-hidden='true')
+            i.fa.fa-arrow-circle-right(aria-hidden='true')
+        .Content5--conainer--two
+          .card-deck.Content5--conainer--two--card--deck
+            .card.Content5--conainer--two--card--deck--card1
+              img.Content5--conainer--two--card--deck--card1__img(src='img/Green Shop/PSD/spx2/spx2-15.png', height='180px', width='260px')
+              .card-body.Content5--conainer--two--card--deck--card1--card-body
+                p.Content5--conainer--two--card--deck--card-body__p #{caydanhdu}
+                .Content5--container--twoOne--card1--body--star
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star-half-o(aria-hidden='true')
+              .Content5--conainer--two--card--deck--card1--rate
+                p.Content5--conainer--two--card--deck--card1--rate__p1 #{content_250k}
+                p.Content5--conainer--two--card--deck--card1--rate__p2 #{content_250k}
+              .Content5--conainer--two--card--deck--card1--rate--PercentageReduction
+                p.Content5--conainer--two--card--deck--card1--rate--PercentageReduction__p new
+            .card.Content5--conainer--two--card--deck--card1
+              img.Content5--conainer--two--card--deck--card1__img(src='img/Green Shop/PSD/spx2/spx2-7.png', height='180px', width='260px')
+              .card-body.Content5--conainer--two--card--deck--card1--card-body
+                p.Content5--conainer--two--card--deck--card-body__p2 Cây Xương Rồng
+                .Content5--container--twoOne--card1--body--star2
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star-half-o(aria-hidden='true')
+              .Content5--conainer--two--card--deck--card1--rate
+                p.Content5--conainer--two--card--deck--card1--rate__p1 #{content_250k}
+                p.Content5--conainer--two--card--deck--card1--rate__p2 #{content_250k}
+            .card.Content5--conainer--two--card--deck--card1
+              img.Content5--conainer--two--card--deck--card1__img(src='img/Green Shop/PSD/spx2/spx2-12.png', height='180px', width='260px')
+              .card-body.Content5--conainer--two--card--deck--card1--card-body
+                p.Content5--conainer--two--card--deck--card-body__p3 #{caydalam}
+                .Content5--container--twoOne--card1--body--star
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star-half-o(aria-hidden='true')
+              .Content5--conainer--two--card--deck--card1--rate
+                p.Content5--conainer--two--card--deck--card1--rate__p1 #{content_250k}
+                p.Content5--conainer--two--card--deck--card1--rate__p2 #{content_250k}
+            .card.Content5--conainer--two--card--deck--card1
+              img.Content5--conainer--two--card--deck--card1__img(src='img/Green Shop/PSD/spx2/spx2-11.png', height='180px', width='260px')
+              .card-body.Content5--conainer--two--card--deck--card1--card-body
+                p.Content5--conainer--two--card--deck--card-body__p Cây dứa nhỏ
+                .Content5--container--twoOne--card1--body--star
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star-half-o(aria-hidden='true')
+              .Content5--conainer--two--card--deck--card1--rate
+                p.Content5--conainer--two--card--deck--card1--rate__p1 #{content_250k}
+                p.Content5--conainer--two--card--deck--card1--rate__p2 #{content_250k}
+          .card-deck.Content5--conainer--two--card--deck
+            .card.Content5--conainer--two--card--deck--card1
+              img.Content5--conainer--two--card--deck--card1__img(src='img/Green Shop/PSD/spx2/spx2-1.png', height='180px', width='260px')
+              .card-body.Content5--conainer--two--card--deck--card1--card-body
+                p.Content5--conainer--two--card--deck--card-body__p #{caydanhdu}
+                .Content5--container--twoOne--card1--body--star
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star-half-o(aria-hidden='true')
+              .Content5--conainer--two--card--deck--card1--rate
+                p.Content5--conainer--two--card--deck--card1--rate__p1 680.000 đ
+                p.Content5--conainer--two--card--deck--card1--rate__p2 #{content_250k}
+            .card.Content5--conainer--two--card--deck--card1
+              img.Content5--conainer--two--card--deck--card1__img(src='img/Green Shop/PSD/spx2/spx2-5.png', height='180px', width='260px')
+              .card-body.Content5--conainer--two--card--deck--card1--card-body
+                p.Content5--conainer--two--card--deck--card-body__p6 #{caydalam}
+                .Content5--container--twoOne--card1--body--star2
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star-half-o(aria-hidden='true')
+              .Content5--conainer--two--card--deck--card1--rate
+                p.Content5--conainer--two--card--deck--card1--rate__p1 880.000 đ
+                p.Content5--conainer--two--card--deck--card1--rate__p2 #{content_250k}
+            .card.Content5--conainer--two--card--deck--card1
+              img.Content5--conainer--two--card--deck--card1__img(src='img/Green Shop/PSD/spx2/spx2-2.png', height='180px', width='260px')
+              .card-body.Content5--conainer--two--card--deck--card1--card-body
+                p.Content5--conainer--two--card--deck--card-body__p7 Cây chân chim
+                .Content5--container--twoOne--card1--body--star
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star-half-o(aria-hidden='true')
+              .Content5--conainer--two--card--deck--card1--rate
+                p.Content5--conainer--two--card--deck--card1--rate__p1 750.000 đ
+                p.Content5--conainer--two--card--deck--card1--rate__p2 #{content_250k}
+            .card.Content5--conainer--two--card--deck--card1
+              img.Content5--conainer--two--card--deck--card1__img(src='img/Green Shop/PSD/spx2/spx2-14.png', height='180px', width='260px')
+              .card-body.Content5--conainer--two--card--deck--card1--card-body
+                p.Content5--conainer--two--card--deck--card-body__p8 Cây đa búp đỏ
+                .Content5--container--twoOne--card1--body--star
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star(aria-hidden='true')
+                  i.fa.fa-star-half-o(aria-hidden='true')
+              .Content5--conainer--two--card--deck--card1--rate
+                p.Content5--conainer--two--card--deck--card1--rate__p1 150.000 đ
+                p.Content5--conainer--two--card--deck--card1--rate__p2 #{content_250k}
+    // End : Content5
+    // Start : Content6
+    section.Content6
+      .container.Content6--container
+        .Content6--container--One
+          p.Content6--container--One__p Tin tức
+          hr.Content6--container--One__hr
+        .Content6--container--Two
+          .row.Content--container--Two--row
+            .col-xs-4.col-sm-4.col-md-4.col-lg-4.Content-container--Two--row--displayproduct
+              img.Content--container--Two--row__img(src='img/Green Shop/PSD/content6_image1.png', height='202px', width='350px')
+              p.Content--container--Two--row__p1 #{content6__p1 }
+              p.Content--container--Two--row__p2 15 thiết kế phòng ngủ tuyệt đẹp làm vạn người mê
+              p.Content--container--Two--row__p3
+                | Cùng Sài Gòn tìm hiểu một vài xu hướng thiết kế sân vườn được ưa chuộng hiện nay nhé ! Kết hợp hàng rào
+              p.Content--container--Two--row__p4 Đọc tiếp
+            .col-xs-4.col-sm-4.col-md-4.col-lg-4.Content-container--Two--row--displayproduct
+              img.Content--container--Two--row__img(src='img/Green Shop/PSD/content6_image2.png', height='202px', width='350px')
+              p.Content--container--Two--row__p1 #{content6__p1 }
+              p.Content--container--Two--row__p2 Tạo Tiểu Cảnh Góc Sân Cho Nhà Phố , Biệt Thự Đẹp
+              p.Content--container--Two--row__p3
+                | Khi bước từ ngoài ngõ vào hay từ trong nhà đi ra , góc sân nhà luôn là điểm nhìn đầu tiên của chúng ta
+              p.Content--container--Two--row__p4 Đọc tiếp
+            .col-xs-4.col-sm-4.col-md-4.col-lg-4.Content-container--Two--row--displayproduct
+              img.Content--container--Two--row__img(src='img/Green Shop/PSD/content6_image3.png', height='202px', width='350px')
+              p.Content--container--Two--row__p1 #{content6__p1 }
+              p.Content--container--Two--row__p2 Cách bố trí hoa chậu trước cửa ấn tượng
+              p.Content--container--Two--row__p3
+                | Như thể hiện sự thân thiện cũng như sự hiếu khách của gia chủ , phần không gian cửa trước
+              p.Content--container--Two--row__p4 Đọc tiếp
+    // End : Content6
+    // Start : Footer
+    include footer.pug
+    // End : Footer
