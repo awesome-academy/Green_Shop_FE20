@@ -1,5 +1,5 @@
 /*
-Error: File to import not found or unreadable: ../header.scss.
+Error: File to import not found or unreadable: ../header.pug.
         on line 17 of style.scss
 
 12:   margin: 0;
@@ -7,7 +7,7 @@ Error: File to import not found or unreadable: ../header.scss.
 14: }
 15: 
 16: /* HEADER *\/
-17: @import "../header.scss";
+17: @import "../header.pug";
 18: 
 19: // Mixin_header
 20: @mixin header1 {
@@ -60,4 +60,4 @@ C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: ../header.scss.\A         on line 17 of style.scss\A \A 12:   margin: 0;\A 13:   padding: 0;\A 14: }\A 15: \A 16: /* HEADER */\A 17: @import \"../header.scss\";\A 18: \A 19: // Mixin_header\A 20: @mixin header1 {\A 21:   color: $whitecolor;\A 22:   text-decoration: none;"; }
+  content: "Error: File to import not found or unreadable: ../header.pug.\A         on line 17 of style.scss\A \A 12:   margin: 0;\A 13:   padding: 0;\A 14: }\A 15: \A 16: /* HEADER */\A 17: @import \"../header.pug\";\A 18: \A 19: // Mixin_header\A 20: @mixin header1 {\A 21:   color: $whitecolor;\A 22:   text-decoration: none;"; }
