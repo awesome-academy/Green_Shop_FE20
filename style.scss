@@ -8,6 +8,15 @@ $e1e1e1color : #e1e1e1;
 $whitecolor : white;
 $ta : center;
 
+
+@for $i from 1 through 5 {
+  .item-#{$i}{
+    color: $yellowcolor;
+    margin-top: -15px;
+    font-size: $fs;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -238,9 +247,9 @@ p.Content2--rowTwo--thumbnail__p {
 }
 
 .Content2--rowTwoOne--thumbnail--star {
-  color: $yellowcolor;
-  margin-top: -15px;
-  font-size: $fs;
+    // color: $yellowcolor;
+    // margin-top: -15px;
+    // font-size: $fs;
 }
 
 p {

@@ -1,3 +1,28 @@
+.item-1 {
+  color: #febf01;
+  margin-top: -15px;
+  font-size: 13px; }
+
+.item-2 {
+  color: #febf01;
+  margin-top: -15px;
+  font-size: 13px; }
+
+.item-3 {
+  color: #febf01;
+  margin-top: -15px;
+  font-size: 13px; }
+
+.item-4 {
+  color: #febf01;
+  margin-top: -15px;
+  font-size: 13px; }
+
+.item-5 {
+  color: #febf01;
+  margin-top: -15px;
+  font-size: 13px; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -302,11 +327,6 @@ p.Content2--rowTwo--thumbnail__p {
 .thumbnail.Content2--rowTwoOne--thumbnail {
   text-align: center;
   position: relative; }
-
-.Content2--rowTwoOne--thumbnail--star {
-  color: #febf01;
-  margin-top: -15px;
-  font-size: 13px; }
 
 p.Content2--rowTwoOne--thumbnail__p {
   margin-top: 15px; }
