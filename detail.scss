@@ -1,93 +1,93 @@
-section.Detail-Content1 {
+section.Detail-content1 {
     margin-top: 20px;
     font-size: 11px;
   }
   
-  .container.Detail-Content1--One--container {
+  .container.Detail-content1--One--container {
     display: flex;
   }
   
-  p.Detail-Content1--One--container__p2 {
+  p.Detail-content1--One--container__p2 {
     padding-left: 3px;
     color: #68ba8f;
     font-weight: 500;
   }
   
-  .Detail-Content--Two--container--displaycolOne--rwoTwoimg {
+  .Detail-content--Two--container--displaycolOne--rwoTwoimg {
     img {
       margin: 0px 0px 0px 10px;
     }
     margin: 30px 0px 0px -10px;
   }
   
-  p.Detail-Content--Two--container--displaycolTwo__p1 {
+  p.Detail-content--Two--container--displaycolTwo__p1 {
     font-size: 15px;
   }
   
-  .Detail-Content--Two--container--displaycolTwo--star {
+  .Detail-content--Two--container--displaycolTwo--star {
     color: #f7bb3f;
     margin: -10px 0px 0px 0px;
     font-size: 10px;
   }
   
-  .Detail-Content--Two--container--displaycolTwo--rate {
+  .Detail-content--Two--container--displaycolTwo--rate {
     display: flex;
   }
   
   p {
-    &.Detail-Content--Two--container--displaycolTwo--rate__p1 {
+    &.Detail-content--Two--container--displaycolTwo--rate__p1 {
       margin: 10px 0px 0px 0px;
       font-size: 15px;
       color: #ed1c24;
       font-weight: 500;
     }
-    &.Detail-Content--Two--container--displaycolTwo--rate__p2 {
+    &.Detail-content--Two--container--displaycolTwo--rate__p2 {
       margin: 14px 0px 0px 10px;
       text-decoration: line-through;
     }
   }
   
-  hr.Detail-Content--Two--container--displaycolTwo__hr {
+  hr.Detail-content--Two--container--displaycolTwo__hr {
     color: #e1e1e1;
   }
   
-  .Detail-Content--Two--container--displaycolTwo--Three {
+  .Detail-content--Two--container--displaycolTwo--Three {
     display: flex;
   }
   
-  p.Detail-Content--Two--container--displaycolTwo--Three__p {
+  p.Detail-content--Two--container--displaycolTwo--Three__p {
     margin: 0px 0px 0px 0px;
     font-size: 15px;
   }
   
-  .Detail-Content--Two--container--displaycolTwo--Three--One {
+  .Detail-content--Two--container--displaycolTwo--Three--One {
     padding: 5px 15px 10px 15px;
     margin: -3px 0px 0px 20px;
     border: 1px solid #e1e1e1;
   }
   
-  .Detail-Content--Two--container--displaycolTwo--Three--Two {
+  .Detail-content--Two--container--displaycolTwo--Three--Two {
     padding: 5px 30px 10px 30px;
     margin: -3px 0px 0px 20px;
     border: 1px solid #e1e1e1;
   }
   
-  .Detail-Content--Two--container--displaycolTwo--Three--Three {
+  .Detail-content--Two--container--displaycolTwo--Three--Three {
     padding: 5px 15px 10px 15px;
     margin: -3px 0px 0px 20px;
     border: 1px solid #e1e1e1;
   }
   
-  .Detail-Content--Two--container--displaycolTwo--Three {
+  .Detail-content--Two--container--displaycolTwo--Three {
     margin: 20px 0px 20px 0px;
   }
   
-  .Detail-Content--Two--container--displaycolTwo--Four {
+  .Detail-content--Two--container--displaycolTwo--Four {
     display: flex;
     position: relative;
   }
   
-  p.Detail-Content--Two--container--displaycolTwo--Four__p {
+  p.Detail-content--Two--container--displaycolTwo--Four__p {
     background: #3fb871;
     padding: 12px 30px 12px 30px;
     text-transform: uppercase;
@@ -95,7 +95,7 @@ section.Detail-Content1 {
     border-radius: 30px;
   }
   
-  .Detail-Content--Two--container--displaycolTwo--Four i.fa {
+  .Detail-content--Two--container--displaycolTwo--Four i.fa {
     &.fa-search {
       position: absolute;
       top: 0;
@@ -120,52 +120,52 @@ section.Detail-Content1 {
     }
   }
   
-  .col-xs-7.col-sm-7.col-md-7.col-lg-7.Detail-Content--Two--container--displaycolTwo {
+  .col-xs-7.col-sm-7.col-md-7.col-lg-7.Detail-content--Two--container--displaycolTwo {
     margin: 10px 0px 0px 0px;
   }
   
-  /* DETAIL CONTENT2 */
+  /* DETAIL content2 */
   
-  section.Detail-Content2 {
+  section.Detail-content2 {
     margin: 85px 0px 0px 29px;
   }
   
-  .row.Detail-Content2--container--row {
+  .row.Detail-content2--container--row {
     margin: 0px 0px 0px 0px;
     text-transform: uppercase;
   }
   
   p {
-    &.Detail-Content2--container--row__p2 {
+    &.Detail-content2--container--row__p2 {
       margin: 0px 0px 0px 60px;
       padding: 15px 0px 0px 0px;
     }
-    &.Detail-Content2--container--row__p1 {
+    &.Detail-content2--container--row__p1 {
       padding: 15px 70px 0px 70px;
       color: #3fb871;
     }
-    &.Detail-Content2--container--row__p3 {
+    &.Detail-content2--container--row__p3 {
       margin: 0px 0px 0px 60px;
       padding: 15px 0px 0px 0px;
     }
   }
   
-  .container.Detail-Content2--container {
+  .container.Detail-content2--container {
     border: 1px solid #e1e1e1;
     padding: 0;
   }
   
-  .Detail-Content2--container--Two {
+  .Detail-content2--container--Two {
     font-size: 11px;
     margin: 20px 0px 0px 35px;
     padding: 0px 85px 0px 0px;
   }
   
-  .Detail-Content2--container--row {
+  .Detail-content2--container--row {
     position: relative;
   }
   
-  .Detail-Content2--container--row__p1::after {
+  .Detail-content2--container--row__p1::after {
     position: absolute;
     content: '';
     top: -2px;
@@ -175,7 +175,7 @@ section.Detail-Content1 {
     width: 27%;
   }
   
-  .Detail-Content3--containe--Two {
+  .Detail-content3--containe--Two {
     display: flex;
     position: relative;
     margin: 40px 0px 0px 0px;
@@ -183,18 +183,18 @@ section.Detail-Content1 {
   }
   
   .card-deck {
-    &.Detail-Content3--containe--Two--card-deck--Two {
+    &.Detail-content3--containe--Two--card-deck--Two {
       margin: 0px 0px 0px 275px;
     }
-    &.Detail-Content3--containe--Two--card-deck--Three {
+    &.Detail-content3--containe--Two--card-deck--Three {
       margin: 0px 0px 0px 4px;
     }
-    &.Detail-Content3--containe--Two--card-deck--Four {
+    &.Detail-content3--containe--Two--card-deck--Four {
       margin: 0px 0px 0px 5px;
     }
   }
   
-  img.Detail-Content3--containe--Two--card-deck--card__img {
+  img.Detail-content3--containe--Two--card-deck--card__img {
     width: auto;
   }
   
@@ -202,56 +202,56 @@ section.Detail-Content1 {
     margin: 0px 0px 0px 160px;
   }
   
-  .card-deck.Detail-Content3--containe--Two--card-deck--One {
+  .card-deck.Detail-content3--containe--Two--card-deck--One {
     position: absolute;
     top: 0;
     left: 0;
   }
   
-  section.Detail-Content3 {
+  section.Detail-content3 {
     margin: 68px 0px 0px 0px;
   }
   
-  p.Detail-Content3--containe--One__p {
+  p.Detail-content3--containe--One__p {
     color: #3fb871;
     font-weight: 500;
   }
   
-  .card.Detail-Content3--containe--Two--card-deck--card {
+  .card.Detail-content3--containe--Two--card-deck--card {
     text-align: center;
   }
   
-  p.Detail-Content3--containe--Two--card-deck--card__p {
+  p.Detail-content3--containe--Two--card-deck--card__p {
     margin: 15px 0px 0px 0px;
   }
   
-  .Detail-Content3--containe--Two--card-deck--card--star {
+  .Detail-content3--containe--Two--card-deck--card--star {
     color: #febf01;
     font-size: 11px;
   }
   
-  .Detail-Content3--containe--Two--card-deck--card--rate {
+  .Detail-content3--containe--Two--card-deck--card--rate {
     display: flex;
   }
   
   p {
-    &.Detail-Content3--containe--Two--card-deck--card--rate__p1 {
+    &.Detail-content3--containe--Two--card-deck--card--rate__p1 {
       margin: 0px 0px 0px 60px;
       color: #ed1c24;
       font-weight: 500;
     }
-    &.Detail-Content3--containe--Two--card-deck--card--rate__p2 {
+    &.Detail-content3--containe--Two--card-deck--card--rate__p2 {
       margin: 5px 0px 0px 11px;
       text-decoration: line-through;
       font-size: 11px;
     }
   }
   
-  hr.Detail-Content3--containe--One__hr {
+  hr.Detail-content3--containe--One__hr {
     position: relative;
   }
   
-  .Detail-Content3--containe--One__hr::after {
+  .Detail-content3--containe--One__hr::after {
     content: '';
     position: absolute;
     left: 0;
@@ -261,11 +261,11 @@ section.Detail-Content1 {
     width: 20%;
   }
   
-  .Detail-Content3--containe--One {
+  .Detail-content3--containe--One {
     position: relative;
   }
   
-  .Detail-Content3--containe--One--containIcoin {
+  .Detail-content3--containe--One--containIcoin {
     position: absolute;
     top: 0;
     right: 0;
