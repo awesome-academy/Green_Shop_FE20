@@ -1,0 +1,90 @@
+//- HTML Variables 
+-var pageTitle = 'Green Shop'
+-var content_rowOne__p1 = 'Open time: 8:00 -18:00 Monday - Sunday'
+-var content_rowTwo__p1 = 'Đăng nhập'
+-var content_rowTwo__p2 = 'Đăng ký'
+-var content_p ='HỖ TRỢ : (04)6674 2332 - (04)3786 8904'
+-var content_250k = '250.000 đ'
+-var content6__p1 = 'thứ 7 ,ngày 31, tháng 12, năm 2015'
+-var caydanhdu ='Cây Danh Dự'
+-var caydalam ='Cây Dạ Lam'
+doctype html
+html(lang='en')
+  head
+    title #{pageTitle}
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    script(type='text/javascript', src='vendor/bootstrap.js')
+    script(type='text/javascript', src='1.js')
+    link(rel='stylesheet', href='vendor/bootstrap.css')
+    link(rel='stylesheet', href='vendor/font-awesome.css')
+    link(rel="stylesheet", href="style.css")
+    link(rel="stylesheet", href="register.css")
+  body
+    // Start : Header
+    include header.pug
+    // End : Header
+    // Start : Content1
+    section.Register_Content1
+      .container
+        .Register_Content1--One
+          p.Register_Content1--One__p1 Home /
+          p.Register_Content1--One__p2 Đăng ký
+        .Register_Content1--Two
+          h2.Register_Content1--Two__h2 thông tin cá nhân
+          .row.Register_Content1--Two--row
+            .col-xs-6.col-sm-6.col-md-6.col-lg-6.Register_Content1--Two--row--displayCol1
+              .Register_Content1--Two--row--displayCol1--One
+                .Register_Content1--Two--row--displayCol1--OneOne
+                  p.Register_Content1--Two--row--displayCol1--OneOne__p1 Họ và tên
+                  p.Register_Content1--Two--row--displayCol1--OneOne__p2 *
+                .Register_Content1--Two--row--displayCol1--Two
+            .col-xs-6.col-sm-6.col-md-6.col-lg-6.Register_Content1--Two--row--displayCol2
+              .Register_Content1--Two--row--displayCol1--One
+                .Register_Content1--Two--row--displayCol1--OneOne
+                  p.Register_Content1--Two--row--displayCol1--OneOne__p1 Số ĐT
+                  p.Register_Content1--Two--row--displayCol1--OneOne__p2 *
+                .Register_Content1--Two--row--displayCol1--Two
+            .col-xs-6.col-sm-6.col-md-6.col-lg-6.Register_Content1--Two--row--displayCol1
+              .Register_Content1--Two--row--displayCol1--One
+                .Register_Content1--Two--row--displayCol1--OneOne
+                  p.Register_Content1--Two--row--displayCol1--OneOne__p1 Địa chỉ email
+                  p.Register_Content1--Two--row--displayCol1--OneOne__p2 *
+                .Register_Content1--Two--row--displayCol1--Two
+            .col-xs-6.col-sm-6.col-md-6.col-lg-6.Register_Content1--Two--row--displayCol2
+              .Register_Content1--Two--row--displayCol1--One
+                .Register_Content1--Two--row--displayCol1--OneOne
+                  p.Register_Content1--Two--row--displayCol1--OneOne__p1 Website của bạn
+                  p.Register_Content1--Two--row--displayCol1--OneOne__p2 *
+                .Register_Content1--Two--row--displayCol1--Two
+          .Register_Content1--TwoTwo
+            span.Register_Content1--TwoTwo__span
+            p.Register_Content1--Two__p Đăng ký nhận thông tin qua email
+    // End : Content1
+    // Start : Content2
+    .Register_Content1--Two
+      .container
+        h2.Register_Content1--Two__h2 thông tin tài khoản
+        .row.Register_Content1--Two--row
+          .col-xs-6.col-sm-6.col-md-6.col-lg-6.Register_Content1--Two--row--displayCol1
+            .Register_Content1--Two--row--displayCol1--One
+              .Register_Content1--Two--row--displayCol1--OneOne
+                p.Register_Content1--Two--row--displayCol1--OneOne__p1 Mật khẩu
+                p.Register_Content1--Two--row--displayCol1--OneOne__p2 *
+              .Register_Content1--Two--row--displayCol1--Two
+          .col-xs-6.col-sm-6.col-md-6.col-lg-6.Register_Content1--Two--row--displayCol2
+            .Register_Content1--Two--row--displayCol1--One
+              .Register_Content1--Two--row--displayCol1--OneOne
+                p.Register_Content1--Two--row--displayCol1--OneOne__p1 Nhập lại mật khẩu
+                p.Register_Content1--Two--row--displayCol1--OneOne__p2 *
+              .Register_Content1--Two--row--displayCol1--Two
+        .End
+          span.End__span1
+            p.End__span1_p quay lại
+          span.End__span2
+            p.End__Span2__p đăng ký
+    // End : Content2
+
+    // Start : Footer
+    include footer.pug
+    // End : Footer
