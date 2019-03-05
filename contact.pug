@@ -1,0 +1,63 @@
+//- HTML Variables 
+-var pageTitle = 'Green Shop'
+-var content_rowOne__p1 = 'Open time: 8:00 -18:00 Monday - Sunday'
+-var content_rowTwo__p1 = 'Đăng nhập'
+-var content_rowTwo__p2 = 'Đăng ký'
+-var content_p ='HỖ TRỢ : (04)6674 2332 - (04)3786 8904'
+-var content_250k = '250.000 đ'
+-var content6__p1 = 'thứ 7 ,ngày 31, tháng 12, năm 2015'
+-var caydanhdu ='Cây Danh Dự'
+-var caydalam ='Cây Dạ Lam'
+doctype html
+html(lang='en')
+  head
+    title #{pageTitle}
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    script(type='text/javascript', src='vendor/bootstrap.js')
+    script(type='text/javascript', src='1.js')
+    link(rel='stylesheet', href='vendor/bootstrap.css')
+    link(rel='stylesheet', href='vendor/font-awesome.css')
+    link(rel='stylesheet', href='style.css')
+    link(rel="stylesheet", href="contact.css")
+  body
+    // Start : Header
+    include header.pug
+    // End : Header
+    // Start : Content1
+section.Contact_Content1
+  .container
+    .Contact_Content1--One
+      p.Contact_Content1--One__p1 Home /
+      p.Contact_Content1--One__p2 Liên hệ
+  iframe.Contact_Content1--Two(src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.9121183121206!2d105.8136892147634!3d21.036202085994375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab12f62fd79f%3A0x7a34e9dcf1a11eb6!2zVOG6p25nIDE2LCAyNjYgxJDhu5lpIEPhuqVuLCBMaeG7hXUgR2lhaSwgQmEgxJDDrG5oLCBIw6AgTuG7mWksIFZpZXRuYW0!5e0!3m2!1sen!2s!4v1551234282321', width='100%', height='450', frameborder='0', style='border:0', allowfullscreen='')
+// End : Content1
+// Start : Content2
+section.Contact_Content2
+  .container
+    .row
+      .col-xs-6.col-sm-6.col-md-6.col-lg-6.Contact_Content2--ColOne
+        h2.Contact_Content2--ColOne__h2 thông tin liên hệ
+        .Contact_Content2--ColOne--One
+          p.Contact_Content2--ColOne--One__p1 Họ và tên
+          p.Contact_Content2--ColOne--One__p2 * :
+        .Contact_Content2--ColOne--Two
+        .Contact_Content2--ColOne--One
+          p.Contact_Content2--ColOne--One__p1 Địa chỉ email
+          p.Contact_Content2--ColOne--One__p2 * :
+        .Contact_Content2--ColOne--Two
+        .Contact_Content2--ColOne--One
+          p.Contact_Content2--ColOne--One__p1 Số ĐT
+          p.Contact_Content2--ColOne--One__p2 * :
+        .Contact_Content2--ColOne--Two
+        .Contact_Content2--ColOne--Seven
+          p.Contact_Content2--ColOne--One__p1 Bình luận
+          p.Contact_Content2--ColOne--One__p2 * :
+        .Contact_Content2--ColOne--Eight
+      .col-xs-4.col-sm-4.col-md-4.col-lg-4.Contact_Content2--ColTwo
+        img.Contact_Content2--ColTwo__img(src='img/Green Shop/PSD/support_contact.png', alt='')
+// End : Content2
+
+// Start : Footer
+include footer.pug
+// End : Footer
