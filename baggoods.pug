@@ -1,0 +1,146 @@
+//- HTML Variables 
+-var pageTitle = 'Green Shop'
+-var content_rowOne__p1 = 'Open time: 8:00 -18:00 Monday - Sunday'
+-var content_rowTwo__p1 = 'Đăng nhập'
+-var content_rowTwo__p2 = 'Đăng ký'
+-var content_p ='HỖ TRỢ : (04)6674 2332 - (04)3786 8904'
+-var content_250k = '250.000 đ'
+-var content6__p1 = 'thứ 7 ,ngày 31, tháng 12, năm 2015'
+-var caydanhdu ='Cây Danh Dự'
+-var caydalam ='Cây Dạ Lam'
+doctype html
+html(lang='en')
+  head
+    title #{pageTitle}
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    script(type='text/javascript', src='vendor/bootstrap.js')
+    script(type='text/javascript', src='1.js')
+    link(rel='stylesheet', href='bootstrap.css')
+    link(rel='stylesheet', href='vendor/font-awesome.css')
+    link(rel='stylesheet', href='style.css')
+    link(rel="stylesheet", href="baggoods.css")
+  body
+    // Start : Header
+    include header.pug
+    // End : Header
+    // Start : Content1
+    section.BagGoods_Content1
+      .container
+        .BagGoods_Content1--One
+          p.BagGoods_Content1--One__p1 Home /
+          p.BagGoods_Content1--One__p2 Giỏ hàng
+        .BagGoods_Content1--Two
+          h1.BagGoods_Content1--Two__h1 giỏ hàng
+    // End : Content1
+    // Start : Content2
+    section.BagGoods_Content2
+      .container
+        .card-group.BagGoods_Content2--card-group--One
+          .card.BagGoods_Content2--card-group--One--card
+            .card-body.BagGoods_Content2--card-group--One--card--card-body
+              p.BagGoods_Content2--card-group--One--card--card-body__p hình ảnh
+          .card.BagGoods_Content2--card-group--One--card
+            .card-body.BagGoods_Content2--card-group--One--card--card-body
+              p.BagGoods_Content2--card-group--One--card--card-body__p tên sản phẩm
+          .card.BagGoods_Content2--card-group--One--card
+            .card-body.BagGoods_Content2--card-group--One--card--card-body
+              p.BagGoods_Content2--card-group--One--card--card-body__p đơn giá
+          .card.BagGoods_Content2--card-group--One--card
+            .card-body.BagGoods_Content2--card-group--One--card--card-body
+              p.BagGoods_Content2--card-group--One--card--card-body__p số lượng
+          .card.BagGoods_Content2--card-group--One--card
+            .card-body.BagGoods_Content2--card-group--One--card--card-body
+              p.BagGoods_Content2--card-group--One--card--card-body__p thành tiền
+          .card.BagGoods_Content2--card-group--One--card
+            .card-body.BagGoods_Content2--card-group--One--card--card-body
+              p.BagGoods_Content2--card-group--One--card--card-body__p xóa
+        .card-group.BagGoods_Content2--card-group--Two
+          .card.BagGoods_Content2--card-group--Two--card
+            .card-body.BagGoods_Content2--card-group--Two--card--card-body
+              img.BagGoods_Content2--card-group--Two--card--card-body--img(src='img/Green Shop/PSD/spx2/spx2-1.png', width='171px', height='180px', alt='')
+          .card.BagGoods_Content2--card-group--Two--card
+            .card-body.BagGoods_Content2--card-group--Two--card--card-body
+              p.BagGoods_Content2--card-group--Two--card--card-body__p1 cây văn phòng
+          .card.BagGoods_Content2--card-group--Two--card
+            .card-body.BagGoods_Content2--card-group--Two--card--card-body
+              p.BagGoods_Content2--card-group--Two--card--card-body__p2 270.000đ
+          .card.BagGoods_Content2--card-group--Two--card
+            .card-body.BagGoods_Content2--card-group--Two--card--card-body
+              span.BagGoods_Content2--card-group--Two--card--card-body--span
+                p.BagGoods_Content2--card-group--Two--card--card-body__p3 1
+          .card.BagGoods_Content2--card-group--Two--card
+            .card-body.BagGoods_Content2--card-group--Two--card--card-body
+              p.BagGoods_Content2--card-group--Two--card--card-body__p4 270.000đ
+          .card.BagGoods_Content2--card-group--Two--card
+            .card-body.BagGoods_Content2--card-group--Two--card--card-body
+              p.BagGoods_Content2--card-group--Two--card--card-body__p5
+                i.fa.fa-trash(aria-hidden='true')
+        .card-group.BagGoods_Content2--card-group--Two
+          .card.BagGoods_Content2--card-group--Two--card
+            .card-body.BagGoods_Content2--card-group--Two--card--card-body
+              img.BagGoods_Content2--card-group--Two--card--card-body--img(src='img/Green Shop/PSD/spx2/spx2-1.png', width='171px', height='180px', alt='')
+          .card.BagGoods_Content2--card-group--Two--card
+            .card-body.BagGoods_Content2--card-group--Two--card--card-body
+              p.BagGoods_Content2--card-group--Two--card--card-body__p1 cây văn phòng
+          .card.BagGoods_Content2--card-group--Two--card
+            .card-body.BagGoods_Content2--card-group--Two--card--card-body
+              p.BagGoods_Content2--card-group--Two--card--card-body__p2 270.000đ
+          .card.BagGoods_Content2--card-group--Two--card
+            .card-body.BagGoods_Content2--card-group--Two--card--card-body
+              span.BagGoods_Content2--card-group--Two--card--card-body--span
+                p.BagGoods_Content2--card-group--Two--card--card-body__p3 1
+          .card.BagGoods_Content2--card-group--Two--card
+            .card-body.BagGoods_Content2--card-group--Two--card--card-body
+              p.BagGoods_Content2--card-group--Two--card--card-body__p4 270.000đ
+          .card.BagGoods_Content2--card-group--Two--card
+            .card-body.BagGoods_Content2--card-group--Two--card--card-body
+              p.BagGoods_Content2--card-group--Two--card--card-body__p5
+                i.fa.fa-trash(aria-hidden='true')
+        .card-group.BagGoods_Content2--card-group--Two
+          .card.BagGoods_Content2--card-group--Two--card
+            .card-body.BagGoods_Content2--card-group--Two--card--card-body
+              img.BagGoods_Content2--card-group--Two--card--card-body--img(src='img/Green Shop/PSD/spx2/spx2-1.png', width='171px', height='180px', alt='')
+          .card.BagGoods_Content2--card-group--Two--card
+            .card-body.BagGoods_Content2--card-group--Two--card--card-body
+              p.BagGoods_Content2--card-group--Two--card--card-body__p1 cây văn phòng
+          .card.BagGoods_Content2--card-group--Two--card
+            .card-body.BagGoods_Content2--card-group--Two--card--card-body
+              p.BagGoods_Content2--card-group--Two--card--card-body__p2 270.000đ
+          .card.BagGoods_Content2--card-group--Two--card
+            .card-body.BagGoods_Content2--card-group--Two--card--card-body
+              span.BagGoods_Content2--card-group--Two--card--card-body--span
+                p.BagGoods_Content2--card-group--Two--card--card-body__p3 1
+          .card.BagGoods_Content2--card-group--Two--card
+            .card-body.BagGoods_Content2--card-group--Two--card--card-body
+              p.BagGoods_Content2--card-group--Two--card--card-body__p4 270.000đ
+          .card.BagGoods_Content2--card-group--Two--card
+            .card-body.BagGoods_Content2--card-group--Two--card--card-body
+              p.BagGoods_Content2--card-group--Two--card--card-body__p5
+                i.fa.fa-trash(aria-hidden='true')
+    // End : Content2
+    // Start : Content3
+    section.BagGoods_Content3
+      .container
+        .BagGoods_Content3--One
+          span.BagGoods_Content3--One__span1
+            p.BagGoods_Content3--One__span1__p hủy đơn hàng
+          span.BagGoods_Content3--One__span2
+            p.BagGoods_Content3--One__span2_p tiếp tục mua
+        .BagGoods_Content3--Two
+          .BagGoods_Content3--Two--TwoOne
+            .BagGoods_Content3--Two--TwoOneOne tổng tiền ( chưa thuế )
+            .BagGoods_Content3--Two--TwoOneTwo 270.000đ
+          .BagGoods_Content3--Two--TwoTwo
+            .BagGoods_Content3--Two--TwoTwoOne thuế ( vat 10% )
+            .BagGoods_Content3--Two--TwoTwoTwo 27.000đ
+          .BagGoods_Content3--Two--TwoThree
+            .BagGoods_Content3--Two--TwoThreeOne tổng phải thanh toán
+            .BagGoods_Content3--Two--TwoThreeTwo 297.000đ
+        .BagGoods_Content3--Three
+          p.BagGoods_Content3--Three__p thanh toán
+    // End : Content3
+
+    // Start : Footer
+    include footer.pug
+    // End : Footer
